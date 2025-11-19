@@ -25,9 +25,5 @@ public class CalciImplementation implements Calci {
 		int c=a/b;
 		return c;
 	}
-	@Override 
-	public int square(int a) {
-	    return a * a;
-	}
 
 }
