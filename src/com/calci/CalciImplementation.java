@@ -25,5 +25,8 @@ public class CalciImplementation implements Calci {
 		int c=a/b;
 		return c;
 	}
+	public double percentage(double obtained, double total) {
+	    return (obtained / total) * 100;
+	}
 
 }
