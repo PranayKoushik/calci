@@ -24,6 +24,7 @@ public class CalciImplementation implements Calci {
 		int c=a/b;
 		return c;
 	}
+
 	
 	public int power(int a,int b) {
 	     int result =1;
@@ -31,7 +32,12 @@ public class CalciImplementation implements Calci {
 	    	 result =result*a;
 	    }
 	     return result;
+	}
 		
+
+	public double percentage(double obtained, double total) {
+	    return (obtained / total) * 100;
+
 	}
 
 }
